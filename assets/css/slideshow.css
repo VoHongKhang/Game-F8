@@ -18,7 +18,7 @@
 
 .slide-show {
     width: 9999px;
-    -webkit-animation: slide 18s ease infinite;
+    -webkit-animation: slide 28s ease infinite;
     /*  infinite là lặp lại vô hạn lần */
 }
 
