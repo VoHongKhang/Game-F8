@@ -1,0 +1,46 @@
+#slide {
+    /* Kích cỡ tổng là 1470px */
+    width: 1470px; 
+    margin: 0 auto;
+    height: 800px;
+    /* Ẩn các hình ảnh dư thừa, khi vượt quá kích thước cửa slide */
+    overflow: hidden;
+    /*  Giữ tọa độ hiện tại hiện thị trên màn hình */
+    position: relative;
+}
+
+.DieuHuong {
+    position: absolute;
+    color: #ffff;
+    font-size: 40px;
+    top: 50%;
+}
+
+.slide-show {
+    width: 9999px;
+    -webkit-animation: slide 18s ease infinite;
+    /*  infinite là lặp lại vô hạn lần */
+}
+
+#slide img {
+    /* Chỉnh kích cỡ từng ảnh bằng kích cỡ tổng */
+    width: 1470px;
+    height: 800px;
+    float: left;
+}
+
+i.fa.fa-chevron-circle-right {
+    /* Sử dụng position : relative để giữ lại tọa ban đầu */
+    position: relative;
+    left: 1370px;
+}
+
+i.fa.fa-chevron-circle-left {
+    position: relative;
+    right: -15px;
+}
+
+
+
+
+
